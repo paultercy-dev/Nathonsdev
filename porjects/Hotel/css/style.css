@@ -1,0 +1,39 @@
+/*
+Error: Invalid CSS after "@import": expected file to import (string or url()), was "('/helpers/mixi..."
+        on line 1 of style.scss
+
+1: @import('/helpers/mixins');
+
+Backtrace:
+style.scss:1
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1105:in `expr!'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:371:in `block in import_directive'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:370:in `loop'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:370:in `import_directive'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:222:in `special_directive'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:197:in `directive'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/home/nate/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@import\": expected file to import (string or url()), was \"('/helpers/mixi...\"\A         on line 1 of style.scss\A \A 1: @import('/helpers/mixins');"; }
