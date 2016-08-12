@@ -1,0 +1,18 @@
+.about-page {
+	border-right: 1px solid blue;
+	background-color:  #d4dae1;
+	min-height: 500px;
+	max-height: 100%;
+}
+.facebook {
+	background-color: #f3f3f3;
+	min-height: 500px;
+	max-height: 100%;
+
+}
+.about-page h1{
+	
+}
+.facebook h1 {
+	
+}

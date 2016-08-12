@@ -1,0 +1,123 @@
+body{
+  color: #B1B9C1;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: "Lora", serif;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+p {
+  margin-bottom: 40px;
+}
+h1, h2 {
+  font-weight: 400;
+  width: 100%;
+}
+h1 {
+  ;
+}
+h2 {
+  font-size: 42px;
+  color: #465058;
+  margin: 40px 0 0;
+}
+h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 40px 0 0;
+  color: #465058;
+}
+h4 {
+  font-weight: 200;
+  font-size: 24px;
+  margin: 10px 0 0;
+}
+h5 {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 10px 0 40px;
+}
+.grid-full {
+  width: 100%;
+  float: left;
+}
+.grid-half {
+  width: 50%;
+  float: left;
+}
+.grid-third {
+  width: 27.33333%;
+  margin: 0 3%;
+  float: left;
+}
+.grid-fourth {
+  width: 25%;
+  float: left;
+}
+.grid-fifth {
+  width: 20%;
+  float: left;
+}
+
+/* above just for dev */
+
+.grid-seventh-day {
+  width: 9.5%;
+  height: 100px;
+  float: left;
+  border-right: 1px solid blue;
+  list-style: none;
+}
+.grid-seventh-day:nth-child(1) {
+	border-left: 1px solid blue;
+}
+.grid-seventh-day:nth-child(even){
+	background-color: #f3f3f3;
+}
+.grid-seventh-day:nth-child(odd){
+	background-color: #d4dae1;
+}
+
+.button {
+  border: 2px solid #D5DDE4;
+  border-radius: 4px;
+  padding: 12px 20px;
+  color: #777B7E;
+  transition: .35s;
+  font-weight: 400;
+}
+
+.button:hover {
+  border-color: #7CCEEE;
+}
+.weather {
+	line-height: 1px;
+}
+ul li {
+	max-height: 110%;
+	font-size: .9em;
+	line-height: 2px;
+}
+ul li #high-temp {
+	font-size: .9em;
+	color: red;
+}
+ul li #low-temp{
+	font-size: .9em;
+	color: blue;
+}
+.weather-bar {
+	padding-top: 25px;
+}
+.grid-seventh-day .grid-full {
+	margin-top: 7.5%;
+}
+#low-temp {
+	margin-top: 27.5%;
+}
+.grid-half img {
+	width: 35px;
+	height: 35px;
+	padding-top: 8px;
+}

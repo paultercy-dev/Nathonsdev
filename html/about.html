@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Nathon Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--CSS-->
+        <link href='https://fonts.googleapis.com/css?family=Lora|Chewy' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../css/normalize.min.css">
+        <link rel="stylesheet" href="../js/animsition/animsition.min.css">
+        <link rel="stylesheet" href="../js/slick/slick.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/weather-style.css">
+        <link rel="stylesheet" type="text/css" href="../css/about.css">
+    </head>
+     <body>
+      <div class="row container animsition">
+        <header class="row header">
+          <div class="grid-third">
+            <a href="../index.html" class="nr-logo">Nathon Reed</a>
+          </div>
+          <div class="grid-third">
+            <h1 class="description">Nathon Reed Portfolio</h1>
+          </div>
+          <div class="grid-third">
+            <nav class="nav-bar">
+              <a href="../html/about.html" class="active">About Nathon</a>
+              <a href="../html/porjects.html" >Projects</a>
+              <a href="../html/contact.html" >Contact</a>
+            </nav>
+          </div>
+      </header><!--/header-->
+        <div id="span-1">
+        </div> <br>
+        <h1 class="weather-title">Weather In Sacramento, CA </h1>
+        <div id="weather">
+
+        </div>  
+
+        <div class="row">
+          <div class="grid-two-third">
+            <div class="about-page">
+              <h1>All About Nathon Reed</h1>
+              <div class="slide-about">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+            </div>
+            </div>
+          </div>
+          <div class="grid-one-third">
+            <div class="facebook">
+              <h1>Face Book Link of Nathon</h1>
+
+            </div>
+          </div>
+        </div>
+
+      <script src="../js/jquery-1.11.2.min.js"></script>
+      <script src="../js/animsition/jquery.animsition.min.js"></script>
+      <script src="../js/sticky/jquery.sticky.js"></script>
+      <script src="../js/slick/slick.min.js"></script>
+      <script>
+        $('.slide-about').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          asNavFor: '.slider-for',
+          dots: true,
+          centerMode: true,
+          focusOnSelect: true
+        });
+      <script src="../js/main.js"></script>
+      <script src="../js/weather-java.js"></script>
+      <script src="../js/about.js"></script>
+    </body>
+</html>
