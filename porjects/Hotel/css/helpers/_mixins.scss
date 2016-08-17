@@ -24,3 +24,13 @@ $center-margin: 0px auto;
 @mixin box-emboss($opacity, $opacity2){
     box-shadow:white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0;
 }
+@mixin form-options($bgcolor, $shadowform, $bordercolor){
+	margin: auto;
+	height: 750px;
+	background:($bgcolor);
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px black($shadowform);
+	border-radius: 10px;
+	border: 6px solid ($bordercolor);
+}

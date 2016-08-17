@@ -1,9 +1,29 @@
-.flight_form {
-  border: 5px solid red; }
+.form-container {
+  padding: 5%; }
 
-.flight_form .container {
-  border: 5px solid blue;
-  width: 70%;
-  margin: auto; }
+.flight-form {
+  @inculde form-options(gray, .85, black(.85)); }
+
+.flight-form h1 {
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  letter-spacing: 0.06em;
+  font-size: 2.5em;
+  text-align: center;
+  transform: translateZ(-2px);
+  color: rgba(0, 0, 0, 0.85); }
+
+.flight-form .name-flight {
+  border: 5px solid red;
+  margin: auto;
+  height: 75px;
+  width: 90%; }
+
+label {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.45);
+  margin-top: 7.5%;
+  padding: 2.5%;
+  font-family: "Lora", serif; }
 
 /*# sourceMappingURL=form.css.map */
