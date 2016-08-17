@@ -1,0 +1,13 @@
+@import "helpers/mixins";
+@import "helpers/vars";
+@import "helpers/holders";
+
+.flight_form {
+	border: 5px solid red;
+
+}
+.flight_form .container {
+	border: 5px solid blue;
+ 	width: 70%;
+ 	margin: auto;	
+}

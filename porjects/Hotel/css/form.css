@@ -1,29 +1,9 @@
-form div {
-  margin-bottom: 10px;
-  clear: both;
-}
+.flight_form {
+  border: 5px solid red; }
 
-.label {
-  float: left;
-  display: inline-block;
-  position: relative;
-  top: 10px;
-  text-align: right;
-  width: 200px;
-  padding-right: 10px;
-}
+.flight_form .container {
+  border: 5px solid blue;
+  width: 70%;
+  margin: auto; }
 
-input {
-  border: solid 1px #ccc;
-  border-radius: 4px;
-  height: 40px;
-  padding: 5px;
-}
-
-#next {
-  margin-left: 200px;
-}
-
-#submit {
-  margin: 0;
-}
+/*# sourceMappingURL=form.css.map */
