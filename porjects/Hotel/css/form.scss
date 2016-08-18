@@ -5,14 +5,16 @@
 .form-container {
 	padding: 5%;
 
-
 }
 .flight-form {
-	@inculde form-options(gray, .85, black(.85));
+	width: 70%;
+	height: 750px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
 }
-
-
- 
 .flight-form h1 {
 	text-transform: uppercase;
   	font-family: $main_font;
@@ -21,22 +23,55 @@
   	text-align: center;
   	transform: translateZ(-2px);
   	color: black(.85);
-}
-.flight-form .name-flight {
-	border: 5px solid red;
-	margin: auto;
-	height: 75px;
-	width: 90%;
-
+  	text-shadow: 0 1px 0 #ccc,
+		0 2px 0 #c9c9c9,
+		0 3px 0 #bbb,
+		0 4px 0 #b9b9b9,
+		0 5px 0 #aaa,
+		0 6px 1px rgba(0,0,0,.1),
+		0 0 5px rgba(0,0,0,.1),
+		0 1px 3px rgba(0,0,0,.3),
+		0 3px 5px rgba(0,0,0,.2),
+		0 5px 10px rgba(0,0,0,.25),
+		0 10px 10px rgba(0,0,0,.2),
+		0 20px 20px rgba(0,0,0,.15);
 }
 label {
-	text-transform: uppercase;
-	color: black(.45);
-	margin-top: 7.5%;
-	padding: 2.5%;
 	font-family: $main_font;
-
+	font-size: 24px;
+	color: black(.85);
 }
-.label-name {
-
+#first-name {
+	height: 20px;
+	margin-left: 15px;
+	margin-right: 50px;
+}
+.flight-form input[type="text"],
+.flight-form input[type="date"],
+.flight-form input[type="datetime"],
+.flight-form input[type="email"],
+.flight-form input[type="number"],
+.flight-form input[type="search"],
+.flight-form input[type="time"],
+.flight-form input[type="url"],
+.flight-form textarea,
+.flight-form select {
+	width: 70%;
+    font-family: $main_font;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: auto;
+    outline: 0;
+    padding: 7px;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    
 }
