@@ -2,17 +2,20 @@
 @import "helpers/vars";
 @import "helpers/holders";
 
+body{
+	@include parallax-background("../img/city_sf_001.jpg");
+}
+
 .form-container {
 	padding: 5%;
-
+	
 }
 .flight-form {
 	width: 70%;
 	height: 750px;
-    background: #f4f7f8;
+    background: white(.25);
     margin: 10px auto;
     padding: 20px;
-    background: #f4f7f8;
     border-radius: 8px;
 }
 .flight-form h1 {
@@ -73,5 +76,5 @@ label {
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
     box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
     margin-bottom: 30px;
-    
+    text-align: center;
 }
