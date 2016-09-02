@@ -1,0 +1,116 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+  color: #2e3738; }
+
+.header_top {
+  margin-top: -25px;
+  padding-top: 15px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  height: 85px;
+  width: 100%;
+  transform: translateZ(-1px); }
+
+#city {
+  width: 100%;
+  height: 100vh;
+  perspective: 1px;
+  transform: translateZ(-1px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: url("../img/city_sf_001.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-background-size: "50%";
+  -moz-background-size: "50%";
+  -o-background-size: "50%";
+  background-size: "50%"; }
+
+#houses {
+  width: 100%;
+  height: 100vh;
+  perspective: 1px;
+  transform: translateZ(-1px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: url("../img/city_sf_002.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#startrek {
+  width: 100%;
+  height: 100vh;
+  perspective: 1px;
+  transform: translateZ(-1px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: url("../img/star_trek_001.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#city h1,
+#houses h1,
+#startrek h1 {
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  letter-spacing: 0.06em;
+  font-size: 120px;
+  text-align: center;
+  transform: translateZ(-2px); }
+
+p {
+  width: 70%;
+  margin: 0 15% 0 15%;
+  padding: 5%;
+  background-color: rgba(255, 255, 255, 0.85);
+  font-family: "Lora", serif;
+  color: rgba(0, 0, 0, 0.75);
+  margin: 0px auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.4; }
+
+.btn {
+  border-radius: 28px;
+  text-shadow: 6px 5px 11px #050505;
+  font-family: "Lora", serif;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 32px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none; }
+
+a {
+  text-decoration: none; }
+
+#city h1 {
+  margin-top: -300px;
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 0.7; }
+
+#houses h1 {
+  color: rgba(255, 255, 255, 0.85);
+  opacity: .5; }
+
+#startrek h1 {
+  color: rgba(255, 255, 255, 0.85);
+  opacity: .75; }
+
+#city h1:hover,
+#houses h1:hover,
+#startrek h1:hover {
+  font-size: 135px; }
+
+/*# sourceMappingURL=stlye.css.map */

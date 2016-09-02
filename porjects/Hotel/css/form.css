@@ -6,6 +6,8 @@ body {
   background-size: cover; }
 
 .form-container {
+  width: 75%;
+  margin: auto;
   padding: 5%; }
 
 .flight-form {
